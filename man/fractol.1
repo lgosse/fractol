@@ -1,0 +1,97 @@
+.Dd My 27, 2016
+.Dt FRACT'OL 1
+.Os
+.Sh NAME
+.Nm fractol
+.Nd User responsive fractal generator
+.Sh SYNOPSIS
+.Nm fractol
+.Op fractal type
+.Sh DESCRIPTION
+Ce projet consiste a creer un petit logiciel d exploration fractale. Commencez donc
+par voir ce qu’est une fractale.
+.Pp
+Les contraintes sont les suivantes :
+.Pp
+Votre logiciel doit proposer au minimum 3 types de fractales differentes, dont au
+moins l’ensemble de Julia et l’ensemble de Mandelbrot (soit au moins une troisieme
+fractale au choix).
+.Pp
+Il doit etre possible de faire varier avec la souris (sans clic) le parametre de l ensemble
+de Julia. Pour les autres types de fractale, cela est laisse a votre discretion.
+.Pp
+La molette de la souris permet de zoomer et dezoomer sur la position actuelle de
+la souris, et cela de facon quasi infinie (modulo les limites de la machine). C est
+dans le principe même des fractales.
+.Pp
+Il doit y avoir un jeu de couleur minimum pour ressentir la profondeur de chaque
+fractale. Mieux : lâchez-vous sur les effets psychedeliques.
+.Pp
+Un parametre est passe en ligne de commande pour definir quel type de fractale
+est a afficher. Si il n’y a pas de parametre fourni, ou si le parametre est invalide,
+le programme affiche la liste des parametres disponibles et quitte.
+.Pp
+En ce qui concerne la representation graphique :
+.Pp
+Vous devez utiliser la minilibX, dans sa version pour XQuartz installee par defaut
+sur les dump, ou bien dans sa version native pour MacOS X.
+.Pp
+La touche ESC permettra de quitter le programme.
+.Pp
+L’utilisation des images de la minilibX est fortement conseillee
+.Pp
+Following fractals are availables :
+.Pp
+.Bl -tag -width indent
+.Nm mandelbrot
+.Pp
+.Nm mandelbrotp3
+(Zn^3 + c)
+.Pp
+.Nm julia
+.Pp
+.Nm juliap3
+(Zn^3 + c)
+.Pp
+.Nm mandelbrotpdclr
+(perpendicular mandelbrot)
+.Pp
+.Nm birdofprey
+.Pp
+.Nm mandytree
+.Pp
+.Nm galaxia
+.Pp
+.Nm burningship
+.Pp
+.Nm druid
+.Pp
+.Nm newton
+.El
+.Sh CONTROLS
+.Bl -tag -width indent
+.Pp
+.Nm + -
+(alpha keypad) change colors
+.Pp
+.Nm c
+change fractal
+.Pp
+.Nm r
+reinit fractal
+.Pp
+.Nm * /
+(numeric keypad) augment / reduce iterations
+.Pp
+.Nm [pageup] / [pagedown]
+augment / reduce the modification of iterations
+.Pp
+.Nm + - or mouse wheel
+(numeric keypad) zoom in / out
+.Pp
+.Nm [space]
+unlock/lock parameter modification mode, use with mouse then to change parameter
+.Pp
+.Nm directionnal arrows
+move fractal
+.El

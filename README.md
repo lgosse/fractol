@@ -13,7 +13,7 @@
 * Newton
 * Galaxia (custom fractal)
 
-* The program let the user choose the unreal argument used by the algorithm to generate the fractal, just moving the mouse, it also provides a 32 color's 
+* The program let the user choose the unreal argument used by the algorithm to generate the fractal, just moving the mouse, it also provides a palette of 32 colors. 
 ![BURNING SHIP](https://raw.githubusercontent.com/lgosse/fractol/master/pictures/burningship.png)
 ![Julia P3](https://raw.githubusercontent.com/lgosse/fractol/master/pictures/Juliap3.png)
 ![mandytree](https://raw.githubusercontent.com/lgosse/fractol/master/pictures/mandytree.png)

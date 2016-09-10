@@ -17,4 +17,4 @@
 ![BURNING SHIP](https://raw.githubusercontent.com/lgosse/fractol/master/pictures/burningship.png)
 ![Julia P3](https://raw.githubusercontent.com/lgosse/fractol/master/pictures/Juliap3.png)
 ![mandytree](https://raw.githubusercontent.com/lgosse/fractol/master/pictures/mandytree.png)
-![mandelbrotpdclr](https://raw.githubusercontent.com/lgosse/fractol/master/pictures/madelbrotpdclr.png)
+![mandelbrotpdclr](https://raw.githubusercontent.com/lgosse/fractol/master/pictures/mandelbrotpdclr.png)
